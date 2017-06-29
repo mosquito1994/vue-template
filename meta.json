@@ -1,0 +1,8 @@
+{
+    "prompt": {
+        "name": {
+            "required": true,
+            "message": "Project name?"
+        }
+    }
+}
