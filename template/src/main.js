@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "development") {
       components: { App }
   })
 } else {
-  window.createFn = function (data) {
+  window.<%=createFn%> = function (data) {
     window.current && window.current.$destroy && window.current.$destroy();
     window.current = null;
     window.current = new Vue({
@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === "development") {
     });
   }
   if (!window.current) {
-    window.createFn();
+    window.<%=createFn%>();
   }
 }
 

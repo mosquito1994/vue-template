@@ -3,6 +3,11 @@
         "name": {
             "required": true,
             "message": "Project name?"
+        },
+        "description": {
+            "required": true,
+            "message": "Project description?",
+            "default": "A MAY Project"
         }
     }
 }
