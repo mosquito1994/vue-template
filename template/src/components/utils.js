@@ -1,6 +1,6 @@
 export default {
     getPath () {
-        var baseUrl;
+        var baseUrl, _host = location.host;
 
         if (_host === 'test-yxpdc.mail.netease.com') {
             baseUrl = 'http://test-yxpdc.mail.netease.com/expert-admin/xhr';
