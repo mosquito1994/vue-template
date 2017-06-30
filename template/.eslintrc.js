@@ -48,6 +48,6 @@ module.exports = {
     "Vuex": true,
     "UM": true,
     "Utils": true,
-    'BreadCrumbMixin': true
+    'GetData': true
   }
 }

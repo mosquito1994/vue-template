@@ -1,6 +1,6 @@
 import Base from './base'
 
-const _baseUrl = Utils.getPath().zhen.baseUrl;
+const _baseUrl = Utils.getPath();
 
 export default {
 	getAuthority : function(options) {
