@@ -13,7 +13,7 @@
     "completeContent": [
     	"接下来的工作：",
     	"1.确认已经在权限后台添加了项目权限",
-    	"2.确认在 https://git.mail.netease.com/yxsc/mm/blob/dev_base/common/config.js#dev_base 中新增了对应项目配置",
+    	"2.确认在后台主框架项目中新增了对应项目配置",
     	"3.进入项目目录 npm install 安装依赖",
     	"4.使用 npm run dev 启动本地环境，使用 npm run build 进行打包"
     ]
